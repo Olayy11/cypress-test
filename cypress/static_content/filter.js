@@ -1,0 +1,8 @@
+export const fasetSidebar = () => cy.get('.facets-sidebar.facet')
+export const chooseCountry = () => cy.get('.facet__nav .form-control')
+export const sectionTechnology = () => cy.get('.facets-sidebar > :nth-child(4) > .facet__group')
+export const sectionUse = () => cy.get('.facets-sidebar > :nth-child(5) > .facet__group')
+export const titleTags = () => cy.get('.facet__nav > h2')
+export const nameTag = () => cy.get('.facet__item-label')
+export const tagsSearch = () => cy.get('.SFSearch__filtertags')
+export const clearall = () => cy.get('.SFSearch__filtertag--clear')

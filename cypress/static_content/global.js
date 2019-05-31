@@ -1,0 +1,1 @@
+export const loader = () => cy.get('.loader__cube')
